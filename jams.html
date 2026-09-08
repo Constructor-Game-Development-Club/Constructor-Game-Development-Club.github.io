@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CGDC — Game Jams</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="banner">
+    <img src="logo.png" alt="CGDC" class="banner-logo" />
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="jams.html" class="active">Game Jams</a>
+    <a href="lectures.html">Lectures</a>
+    <a href="projects.html">Projects</a>
+    <a href="calendar.html">Calendar</a>
+  </nav>
+
+  <section>
+    <h2>Game Jam #1</h2>
+    <p class="meta">Friday 16 &ndash; Sunday 18 October &middot; Results Night Monday 19 October</p>
+
+    <div class="countdown">
+      <div><span class="num" id="days">00</span><span class="lbl">Days</span></div>
+      <div><span class="num" id="hours">00</span><span class="lbl">Hours</span></div>
+      <div><span class="num" id="mins">00</span><span class="lbl">Minutes</span></div>
+      <div><span class="num" id="secs">00</span><span class="lbl">Seconds</span></div>
+    </div>
+    <p id="countdown-note">Until the theme is revealed.</p>
+
+    <p>
+      Three days to make a game from scratch. We give you a theme on Friday
+      evening, you build in a small team, and by Sunday night you have something
+      people can play. Any engine, any language.
+    </p>
+    <p><a href="[SIGNUP]" target="_blank">Sign up here</a> &mdash; sign-ups close Wednesday 14 October.</p>
+  </section>
+
+  <section>
+    <h2>Never done a jam?</h2>
+    <p>Start here. Four things people usually worry about, answered.</p>
+
+    <div class="rule">
+      <h3>I cannot code</h3>
+      <p>
+        You do not need to. Games need art, music, sound, writing, level design
+        and playtesting. Every team needs someone who is not programming, and
+        some of the best jam games are made by people who have never written a
+        line of code.
+      </p>
+    </div>
+
+    <div class="rule">
+      <h3>I have no idea what I am doing</h3>
+      <p>
+        Neither do most people at their first jam. Our lecture on 8 October
+        walks through exactly how to approach a weekend build, and there are
+        people in the room all weekend who will help you.
+      </p>
+    </div>
+
+    <div class="rule">
+      <h3>I do not have a team</h3>
+      <p>
+        Sign up alone. We place you in a team on the Friday, balanced so that
+        every team has the skills it needs. Most people arrive knowing nobody.
+      </p>
+    </div>
+
+    <div class="rule">
+      <h3>My game will be bad</h3>
+      <p>
+        Everyone's first jam game is bad. That is the point &mdash; you learn
+        more in one weekend than in a month of watching tutorials. We score
+        heavily on whether a game is finished, not on whether it is impressive.
+        A small game that works beats an ambitious one that does not.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Schedule</h2>
+    <table>
+      <tr><th>When</th><th>What</th></tr>
+      <tr><td>Fri 18:00</td><td>Doors open</td></tr>
+      <tr><td>Fri 18:20</td><td>Opening and rules</td></tr>
+      <tr><td>Fri 18:35</td><td>Theme reveal</td></tr>
+      <tr><td>Fri 18:40</td><td>Team formation</td></tr>
+      <tr><td>Fri 19:15</td><td>Building starts</td></tr>
+      <tr><td>Sat 10:00&ndash;21:30</td><td>Build day. Scope check at 14:00, food at 19:00</td></tr>
+      <tr><td>Sun 12:00</td><td>Feature freeze &mdash; finishing only from here</td></tr>
+      <tr><td>Sun 17:00</td><td>Playable end to end check</td></tr>
+      <tr><td>Sun 20:00</td><td>Submissions close</td></tr>
+      <tr><td>Mon 19:00</td><td>Results Night &mdash; open to everyone</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Rules</h2>
+
+    <div class="rule">
+      <h3>Teams</h3>
+      <p>Two to four people, three recommended. Teams form on the Friday evening.</p>
+    </div>
+
+    <div class="rule">
+      <h3>What you can bring</h3>
+      <p>
+        Any engine, language or tool. Personal libraries and general-purpose code
+        written before the jam are fine. Licensed or public-domain asset packs are
+        fine if properly credited. Pre-existing game code, or a project started
+        before the theme reveal, is not.
+      </p>
+    </div>
+
+    <div class="rule">
+      <h3>AI</h3>
+      <p>
+        AI code assistance is allowed and must be declared in your itch.io
+        description. AI-generated art, music, sound and writing are not eligible
+        &mdash; those must be made by your team or come from properly credited
+        licensed sources. Undeclared use of AI disqualifies an entry.
+      </p>
+    </div>
+
+    <div class="rule">
+      <h3>Submitting</h3>
+      <p>
+        An itch.io page, browser-playable if possible, by 20:00 on Sunday. Your
+        description must list your team, the tools you used, and any AI code
+        assistance.
+      </p>
+    </div>
+
+    <div class="rule">
+      <h3>Your work is yours</h3>
+      <p>
+        Participants keep all rights to everything they create. CGDC only asks
+        for permission to show and archive entries when promoting the club.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Judging</h2>
+    <table>
+      <tr><th>Criterion</th><th>Weight</th></tr>
+      <tr><td>Completeness &mdash; does it start, play and end without breaking?</td><td>30%</td></tr>
+      <tr><td>Theme &mdash; is the interpretation interesting?</td><td>25%</td></tr>
+      <tr><td>Fun &mdash; is it enjoyable to play?</td><td>25%</td></tr>
+      <tr><td>Presentation &mdash; art, audio, UI, feel</td><td>20%</td></tr>
+    </table>
+    <p>
+      Completeness carries the most weight on purpose. We would rather see a
+      small finished game than an ambitious broken one.
+    </p>
+  </section>
+
+  <section>
+    <h2>Prizes</h2>
+    <table>
+      <tr><th>Place</th><th>Prize</th></tr>
+      <tr><td>1st</td><td>&euro;75 Steam credit per team member</td></tr>
+      <tr><td>2nd</td><td>&euro;50 per member</td></tr>
+      <tr><td>3rd</td><td>&euro;25 per member</td></tr>
+      <tr><td>Player's Choice</td><td>Voted by participants</td></tr>
+      <tr><td>Best First Game</td><td>Team where everyone is a first-timer</td></tr>
+      <tr><td>Most Finished</td><td>The entry that is genuinely complete</td></tr>
+    </table>
+    <p>
+      Every entry is published on our itch.io page, and the top entries are
+      featured in a showcase video on our channel. That part matters more than
+      the gift cards.
+    </p>
+  </section>
+
+  <script src="countdown.js"></script>
+  <footer>
+    Constructor Game Development Club &middot; Constructor University Bremen
+  </footer>
+</body>
+</html>
