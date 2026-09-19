@@ -4,7 +4,7 @@
 
 // --- Data ---
 const TARGET = new Date("2026-10-16T18:35:00");
-
+const TARGET1 = new Date("2026-25-09T18:00:00");
 // --- Refs ---
 const daysEl  = document.getElementById("days");
 const hoursEl = document.getElementById("hours");
@@ -50,3 +50,8 @@ function renderCountdown() {
 // second before the first interval tick fires.
 renderCountdown();
 const ticker = setInterval(renderCountdown, 1000);
+
+
+
+
+///add a time changer and time editor 
