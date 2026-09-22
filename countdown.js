@@ -3,7 +3,7 @@
 // so one script serves both.
 
 // --- Data ---
-const TARGET = new Date("2026-10-16T18:35:00");
+const TARGET = new Date("2026-10-23T18:35:00");
 const TARGET1 = new Date("2026-25-09T18:00:00");
 // --- Refs ---
 const daysEl  = document.getElementById("days");
